@@ -16,4 +16,4 @@ while True:
     i += 1
 
 for _ in table:
-    print("{:<2}{:>5}{:>5}{:>5}".format(*_))
+    print("{:<5}{:>5}{:>5}{:>5}".format(*_))
