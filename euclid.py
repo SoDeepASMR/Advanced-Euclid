@@ -15,5 +15,7 @@ while True:
     table.append([r, x, y, q])
     i += 1
 
+print("{:<5}{:>5}{:>5}{:>5}\n".format(*['r', 'x', 'y', 'q']))
+
 for _ in table:
     print("{:<5}{:>5}{:>5}{:>5}".format(*_))
